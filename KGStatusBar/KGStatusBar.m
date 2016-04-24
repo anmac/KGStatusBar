@@ -34,7 +34,7 @@
 + (void)showWithStatus:(NSString*)status {
     [[KGStatusBar sharedView] showWithStatus:status barColor:[UIColor blackColor] textColor:[UIColor colorWithRed:191.0/255.0 green:191.0/255.0 blue:191.0/255.0 alpha:1.0]];
 }
-+ (void)showWithStatus:(NSString*)status barColor:(UIColor *)barColor textColor:(UIColor *)textColor:{
++ (void)showWithStatus:(NSString*)status barColor:(UIColor *)barColor textColor:(UIColor *)textColor{
     [[KGStatusBar sharedView] showWithStatus:status barColor:barColor textColor:textColor];
 }
 
